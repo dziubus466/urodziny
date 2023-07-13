@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-color: rgb(181, 5, 119);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.title {
+		align-items: center;
+		display: flex;
+		font-size: 50px;
+		color: white;
+		margin: 100px;
+		margin-bottom: 0;
+		font-family: 'Italianno', cursive;
+		.titleHeart {
+			margin-left: 10px;
+			height: 60px;
+		}
+		.kopertaImg {
+			img{
+				height: 100px ;
+			}
+			margin-right: 20px;
+		}
+	}
+	.answer {
+		img {
+			max-width: 1200px;
+		}
+		justify-content: center;
+		display: flex;
+		font-size: 50px;
+	}
+}
+button {
+	display: none;
+}
